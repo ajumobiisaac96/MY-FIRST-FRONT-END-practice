@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+
+  body{
+    background-color: rgb(211, 214, 218);
+    display: flex;
+    place-items: center;
+  }
+
+    .container {
+  height: 10vh;
+  margin: 2rem;
+  width: 1200px;
+  gap: 10px;
+  display: grid;
+  grid-template-areas: 
+  'a a a b b'
+  'a a a b b' 
+  'c c d d d'
+  'c c e e e';
+}
+.cell {
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  padding: 4rem;
+}
+.cell-1 {
+  background: deepskyblue;
+  grid-area:a;
+}
+.cell-2 {
+  background: orangered;
+  grid-area: b;
+}
+.cell-3 {
+  background: royalblue;
+  grid-area: c;
+}
+.cell-4 {
+  background: gold;
+  grid-area: d;
+}
+.cell-5 {
+  background: blueviolet;
+  grid-area: e;
+}
+
+.container { 
+  grid-gap: 10px 10px; 
+}
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="cell cell-1">1.</div>
+    <div class="cell cell-2">2.</div>
+    <div class="cell cell-3">3.</div>
+    <div class="cell cell-4">4.</div>
+    <div class="cell cell-5">5.</div>
+     
+  </div>
+  
+</body>
+</html>

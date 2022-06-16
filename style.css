@@ -1,0 +1,86 @@
+body{
+    background-color: hsl(0, 0%, 95%);
+    width: 100%;
+}
+
+header{
+    text-align: center;
+    padding: 5px;
+}
+
+header button{
+    background-color: hsl(104, 100%, 22%);
+    border: none;
+    width: 200px;
+    padding: 15px 0;
+    border-radius: 25px;
+    margin: auto;
+    cursor: pointer;
+}
+
+header a{
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+    font-family:'Lexand Deca', sans serif;
+}
+
+.container{
+    width: 50%;
+    margin: 100px auto;
+    justify-content: auto;
+    display:flex;
+    align-items:auto;
+}
+
+p {
+    color:hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-family: 'big shoulders display',cursive;
+    margin: 50px 0;
+}
+
+h2{
+    color: hsl(0, 0%, 95%);
+    font-family: 'lexand Deca',sans-serif;
+}
+
+.box-1{ 
+    background-color: rgb(235, 160, 48);
+    padding: 2em;
+    border-radius: 10px 0px 0px 10px;
+}
+.box-1 button{
+    color: rgb(235, 160, 48);
+}
+
+.box-2{
+    background-color: rgb(29, 108, 212);
+    padding: 2em;
+}
+.box-2 button{
+    color: rgb(235, 160, 48);
+}
+
+.box-3{
+    background-color: rgb(2, 119, 60);
+    padding: 2em;
+    border-radius: 10px 0px 0px 10px;
+}
+.box-3 button{
+    color: rgb(235, 160, 48);
+}
+
+button{
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    width: 200px;
+    padding: 15px 0;
+    border-radius: 25px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+
+
+
